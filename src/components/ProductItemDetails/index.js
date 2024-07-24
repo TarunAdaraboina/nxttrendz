@@ -162,20 +162,20 @@ class ProductItemDetails extends Component {
                   <button
                     type="button"
                     className="quantity-controller-button"
+                    aria-label="Mute volume"
                     onClick={this.onDecrementQuantity}
                     data-testid="minus"
                   >
-                    {' '}
                     <BsDashSquare className="quantity-controller-icon" />
                   </button>
                   <p className="quantity">{quantity}</p>
                   <button
                     type="button"
                     className="quantity-controller-button"
+                    aria-label="Mute volume"
                     onClick={this.onIncrementQuantity}
                     data-testid="plus"
                   >
-                    {' '}
                     <BsPlusSquare className="quantity-controller-icon" />
                   </button>
                 </div>
